@@ -1,0 +1,52 @@
+/*font-family: 'Roboto Flex', sans-serif;
+font-family: 'Amatic SC', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin-right: 80%;
+}
+.card{
+    display:inline;
+    width: 18rem;
+}
+.card img {
+    width: 18rem;
+    height: 9rem;
+}
+.flux {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.nav-link {
+    font-size: 20px;
+    align-items: center;
+}
+.navbar  {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10%;
+}
+.list-links {
+    display: flex;
+    column-gap: 30px;
+}
+
